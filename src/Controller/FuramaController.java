@@ -1,9 +1,15 @@
 package Controller;
+import Model.Customer;
+import Service.CustomerService;
+import Service.ICustomerService;
+
+import java.io.IOException;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 public class FuramaController {
-
+    CustomerService customerService = new CustomerService();
     public static void main(String[] args) {
         FuramaController furamaController = new FuramaController();
         furamaController.displayMainMenu();
@@ -208,7 +214,6 @@ public class FuramaController {
             }
         } while (choice != 3);
     }
-
     public int getUserChoice() {
         int choice;
         Scanner scanner = new Scanner(System.in);

@@ -1,4 +1,5 @@
-package Repository;
+package Repositories;
 
 public interface BookingRepository {
+
 }
