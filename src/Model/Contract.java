@@ -1,6 +1,6 @@
 package Model;
 
-import Repository.ContractRepository;
+import Repositories.ContractRepository;
 import Service.IContractService;
 
 public class Contract implements IContractService, ContractRepository {

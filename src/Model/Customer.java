@@ -42,4 +42,14 @@ public class Customer extends Person implements ICustomerService, CustomerReposi
                 ", address='" + address + '\'' +
                 '}';
     }
+
+    @Override
+    public void readFile() {
+
+    }
+
+    @Override
+    public void writeFile() {
+
+    }
 }
